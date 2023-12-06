@@ -11,6 +11,6 @@ def alerta():
 
 
 from unittest.mock import Mock
-mock_velocidade = Mock()
-mock_velocidade.return_value = 70
-alerta()
+velocidade = Mock()
+velocidade.return_value = 70
+print(alerta())
